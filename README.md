@@ -105,3 +105,12 @@ Here’s a quick reference table for common Git commands:
 | `git tag <tag-name>`             | Create a tag for a specific commit.             |
 
 ---
+
+## Additional notes
+
+### 1. list of .gitignore templates
+[list of .gitignore templates](https://github.com/github/gitignore/blob/main/VisualStudio.gitignore)
+
+### 2. Readme.md file syntaxis
+[Readme.md file syntaxis](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
