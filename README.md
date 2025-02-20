@@ -104,6 +104,18 @@ Here’s a quick reference table for common Git commands:
 | `git stash apply stash@{0}`      | Reapply stashed changes by stash ID.            |
 | `git tag <tag-name>`             | Create a tag for a specific commit.             |
 
+Setup a new Branch
+
+| Command                          | Description                                      |
+|----------------------------------|--------------------------------------------------|
+| `git checkout -b <branch-name>`  | Create and Switch to the New Branch.             |
+| `git branch`                     | Verify the Current Branch.                       |
+| `git push origin <branch-name>`  | Push the New Branch to the Remote Repository.    |
+| `git push -u origin <branch-name>`| Set Upstream Tracking (Only the first time).    |
+| `git branch -r`                  | Verify the Remote Branch.                        |
+| `git branch -d <branch-name>`    | Deleting the Branch Locally.                     |
+| `git push origin --delete <branch-name>`| Deleting the Branch Remotelly.            |
+
 ---
 
 ## Additional notes
