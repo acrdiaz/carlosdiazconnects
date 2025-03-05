@@ -116,6 +116,13 @@ Setup a new Branch
 | `git branch -d <branch-name>`    | Deleting the Branch Locally.                     |
 | `git push origin --delete <branch-name>`| Deleting the Branch Remotelly.            |
 
+Checkout the Remote Branch
+
+| Command                          | Description                                      |
+|----------------------------------|--------------------------------------------------|
+| `git fetch origin`  | Fetch updates from the remote.                                |
+| `git checkout -b <branch-name> origin/<branch-name>`| Check out the remote branch and create a local branch.    |
+
 ---
 
 ## Additional notes
