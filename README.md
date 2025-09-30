@@ -95,7 +95,10 @@ Here’s a quick reference table for common Git commands:
 | `git log --oneline`              | Show a simplified, one-line commit history.     |
 | `git diff`                       | Show unstaged changes.                          |
 | `git reset <file>`               | Unstage a file while keeping changes.           |
-| `git reset --hard`               | Discard all local changes and reset to the last commit. |
+| `git reset --hard`               | Discard local changes and reset to the last commit. |
+|`git reset --hard origin/main`    | Discard local changes, prefer remote changes.   |
+|`git restore -SW .`               | Resets your working directory and staging area. |
+|`git clean -fdxi .`               | Removs untracked files/directories from your working tree. |
 | `git remote -v`                  | Show the remote repository URLs.                |
 | `git fetch`                      | Download changes from the remote repository.    |
 | `git rebase <branch>`            | Reapply commits on top of another branch.       |
